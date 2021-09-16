@@ -1,1 +1,1 @@
-web: gunicorn soccer_cards_collector.wsgi
+web: gunicorn soccerteamcards.wsgi
