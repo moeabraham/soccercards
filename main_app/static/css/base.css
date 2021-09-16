@@ -1,0 +1,35 @@
+.transparentBG {
+    background-color: rgba(0,0,0,0);
+
+  }
+  
+/* 
+  nav{
+      color:green;
+      background-color:blue;
+  } */
+
+
+  .font{
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  .font-body{
+    font-family: 'Quicksand', sans-serif;
+    display:flex;
+    justify-content: center;
+
+
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  .color{
+      color:black;
+  }
+  .card-action{
+      display:flex;
+      justify-content: center;
+  }

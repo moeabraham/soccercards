@@ -1,0 +1,24 @@
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white !important;
+}
+
+main {
+    flex-grow: 1;
+    
+}
+
+
+footer { 
+    padding-top:0;
+    text-align: right;
+}
+
+/* .home{
+    background: url("../img/bg.png") 50% 0 no-repeat fixed;
+    color: white;
+    height: 650px;
+    padding: 100px 0 0 0;   
+} */

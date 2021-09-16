@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <h1>Cards List</h1>
+    {% for card in cards %}
+        <div class="card">
+            <a href="{% url 'detail' card.id %}">
+                <div class="card-content">
+                    <span class="card-title">{{card.name}}</span> 
+                    <p>Nationality: {{card.nationality}}</p>
+                    <p>position: {{card.position}}</p>
+                    {% if card.age < 30 %}
+                        <p>Age: {{card.age}}</p>
+                    {% else %}
+                    <p>Age: retired</p>
+                    {% endif %}
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+{% endblock %}

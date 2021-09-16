@@ -1,0 +1,58 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content %}
+    <body id="bg" style="background-image: url('{% static 'img/wall.jpeg' %}')";>
+     <!-- <div class="card shadow1">
+          <h2>Shadow with 2 properties</h2>
+        <pre>box-shadow:
+          0  5px 10px rgba(154,160,185,0.05),
+          0 15px 40px rgba(166,173,201,0.2);</pre>
+        </div>
+        
+        <div class="card shadow2">
+          <h2>Shadow with 1 property</h2>
+          <pre>box-shadow:
+          0 7px 30px <span class="highlight">-10px</span> rgba(150,170,180,0.5);</pre>
+        </div> -->
+        <div class="row font-body" style="margin-top: 100px;">
+          <div class="col s12 m6 l4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text font-body">
+                <span class="card-title">Create a Card</span>
+              </div>
+              <div class="card-action">
+                <a href="{% url 'cats_create' %}">GO</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+               <div class="card blue-grey darken-1">
+                 <div class="card-content white-text font-body">
+                   <span class="card-title">Create a Team</span>
+                   <p></p>
+                 </div>
+                 <div class="card-action">
+                   <a href="{% url 'teams_create' %}">GO</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col s12 m6 l4">
+               <div class="card blue-grey darken-1">
+                 <div class="card-content white-text font-body">
+                   <span class="card-title">View All Teams</span>
+                 </div>
+                 <div class="card-action">
+                   <a href="{% url 'teams_index' %}">GO</a>
+                 </div>
+               </div>
+             </div>
+        </div>
+      
+        
+
+
+
+        
+     {% endblock %}

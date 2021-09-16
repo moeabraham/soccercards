@@ -1,0 +1,71 @@
+
+
+
+
+
+.home {
+    /* background: url("../static/img/bg.png") 50% 0 no-repeat fixed; */
+    /* color: white; */
+    height: 650px;
+    padding: 100px 0 0 0;  
+    /* background-image: url("https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") */
+    background: url('{% static "static/img/wall.jpeg" %}') 50% 0 no-repeat fixed;
+    /* background-image: url("../../media/examples/lizard.png"); */
+    margin-top:50px;
+    width:1600px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+} 
+
+/* .bg{
+    width:fill;
+} */
+
+#bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+
+
+
+/* h2 {
+    margin-top: 0;
+  }
+  
+  .card {
+    padding: 40px;
+    background: #fff;
+    max-width: 360px;
+    border-radius: 20px;
+    margin: 60px auto;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #294;
+  }
+  
+  .shadow1 { 
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+  }
+  
+  .shadow2 { 
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+  }
+
+
+
+
+   */
+/* 
+   .font-body{
+    font-family: 'Quicksand', sans-serif;
+
+    /* font-family: 'Ubuntu', sans-serif; */
