@@ -54,7 +54,7 @@ def add_fixture(request, team_id):
         new_fixture = form.save(commit=False)
         new_fixture.team_id = team_id
         new_fixture.save()
-    return redirect('detail', team_id=team_id)
+    return redirect('teams_detail', team_id=team_id)
 
 def add_photo(request, team_id):
     photo_file = request.FILES.get('photo-file', None)
